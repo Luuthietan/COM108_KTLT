@@ -131,15 +131,15 @@ void TinhTienKaraoke()
 
     // Tinh tien 3 gio dau
     if (soGio <= 3) {
-        tien = soGio * 150000;
+        tien = soGio * 50000;
     }
     else {
         // 3 gio dau tinh gia goc
-        tien = 3 * 150000;
+        tien = 3 * 50000;
 
         // Tu gio thu 4 giam 30%
         gioGiam = soGio - 3;
-        tien = tien + gioGiam * 150000 * 70 / 100;
+        tien = tien + gioGiam * 50000 * 70 / 100;
     }
 
     // Giam them 10% neu bat dau tu 14 den 17 gio
